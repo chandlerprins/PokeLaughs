@@ -89,5 +89,7 @@ class MainActivity : AppCompatActivity() {
                 Toast.makeText(this@MainActivity, "Error loading joke: ${t.message}", Toast.LENGTH_SHORT).show()
             }
         })
+
+
+        }
     }
-}
